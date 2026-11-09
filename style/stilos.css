@@ -84,7 +84,7 @@ body {
     height: 100px;
     background-color: #b4ce4c;
     top: 140px;
-    left: 320px;
+    left: 380px;
     z-index: 4;
 }
 
@@ -114,10 +114,13 @@ body {
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 60px;
 }
 
+/*
 @media (max-width: 700px) {
-    .contenedor {
+   
+  .contenedor {
         grid-template-columns: minmax(0, 1fr);
         grid-template-rows: auto auto auto;
     }
@@ -134,8 +137,43 @@ body {
     }
 
     .foto {
+    background-color: #b4ce4c;
         width: min(55vw, 260px);
-        border-radius: 20px;
+        border-radius: 60px;
         transition: border-radius 5s;
     }
+}*/
+
+    
+
+    
+
+
+.nav {
+    margin-top: 20px;
+    text-align: end;
+    padding-right: 6%;
+    padding-bottom: 1%;
+}
+
+
+nav a {
+    background-color: #19b961;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 5px;
+}
+#experiencia {
+    background-color: rgb(63, 61, 180);
+}
+#habilidades {
+    background-color: #c00f8b;
+}
+#sobremi {
+    background-color: #b4ce4c;
+}
+#proyectos {
+    background-color: #62aeb1;
 }
