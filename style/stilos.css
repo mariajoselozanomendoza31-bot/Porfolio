@@ -41,7 +41,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: aquamarine;
+    color: #F3F6F7;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     transition: transform 0.4s ease;
@@ -55,7 +55,7 @@ body {
 .formacion {
     width: 280px;
     height: 280px;
-    background-color: #e96163;
+    background-color: #819D96;
     top: 70px;
     left: 80px;
     z-index: 1;
@@ -64,7 +64,7 @@ body {
 .proyectos {
     width: 150px;
     height: 150px;
-    background-color: #62aeb1;
+    background-color: #B7BC9F;
     top: 170px;
     left: 280px;
     z-index: 2;
@@ -73,7 +73,7 @@ body {
 .habilidades {
     width: 140px;
     height: 140px;
-    background-color: #c00f8b;
+    background-color: #D6BCAB;
     top: 360px;
     left: 210px;
     z-index: 3;
@@ -82,7 +82,7 @@ body {
 .sobremi {
     width: 100px;
     height: 100px;
-    background-color: #b4ce4c;
+    background-color: #D0BD85;
     top: 140px;
     left: 380px;
     z-index: 4;
@@ -91,7 +91,7 @@ body {
 .experiencia {
     width: 130px;
     height: 140px;
-    background-color: rgb(63, 61, 180);
+    background-color: #819D96;
     top: 260px;
     left: 320px;
     z-index: 5;
@@ -99,8 +99,8 @@ body {
 
 #nombre {
     grid-column: 1 / -1;
-    background-color: #b4ce4c;
-    color: #e96163;
+    background-color: #D6BCAB;
+    color: #F3F6F7;
     display: flex;
     justify-content: right;
     padding: 30px;
@@ -166,14 +166,30 @@ nav a {
     border-radius: 5px;
 }
 #experiencia {
-    background-color: rgb(63, 61, 180);
+    background-color:#C87968;
 }
 #habilidades {
-    background-color: #c00f8b;
+    background-color: #D6BCAB;
 }
 #sobremi {
     background-color: #b4ce4c;
 }
 #proyectos {
     background-color: #62aeb1;
+}
+.pformacion {
+    background-color: #e96163;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+.parrafos {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+    margin: 50px;
 }
