@@ -52,70 +52,71 @@ body {
     z-index: 10;
 }
 
-.formacion {
-    width: 280px;
-    height: 280px;
-    background-color: #819D96;
-    top: 70px;
-    left: 80px;
+.foto {
+    width: 500px;
+    height: 500px;
+    background-image: url("../foto.jpeg");
+    top: 200px;
+    left: 220px;
     z-index: 1;
+
 }
 
 .proyectos {
-    width: 150px;
-    height: 150px;
-    background-color: #B7BC9F;
+    width: 200px;
+    height: 200px;
+    background-color: #819D96;
     top: 170px;
-    left: 280px;
+    left: 220px;
     z-index: 2;
 }
 
 .habilidades {
-    width: 140px;
-    height: 140px;
-    background-color: #D6BCAB;
-    top: 360px;
-    left: 210px;
+    width: 200px;
+    height: 200px;
+    background-color: #a38775;
+    top: 340px;
+    left: 80px;
     z-index: 3;
 }
 
 .sobremi {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     background-color: #D0BD85;
-    top: 140px;
-    left: 380px;
+    top: 230px;
+    left: 100px;
     z-index: 4;
 }
 
 .experiencia {
-    width: 130px;
-    height: 140px;
-    background-color: #819D96;
-    top: 260px;
-    left: 320px;
+    width: 180px;
+    height: 180px;
+    background-color: #B7BC9F;
+    top: 480px;
+    left: 620px;
     z-index: 5;
 }
-
+.formacion {
+    width: 110px;
+    height: 110px;
+    background-color: #C87968;
+    top: 580px;
+    left: 700px;
+    z-index: 6;
+}
 #nombre {
     grid-column: 1 / -1;
-    background-color: #D6BCAB;
+    background-color: #C87968;
     color: #F3F6F7;
     display: flex;
     justify-content: right;
     padding: 30px;
 }
 
-.foto {
-    width: min(28vw, 260px);
-}
 
-.foto img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: 60px;
-}
+
+
 
 /*
 @media (max-width: 700px) {
@@ -165,24 +166,36 @@ nav a {
     padding: 8px;
     border-radius: 5px;
 }
+.titulos {
+color: black;
+text-align: center;
+font-size:  45px; ;
+
+
+}
 #experiencia {
-    background-color:#C87968;
+    background-color:#B7BC9F;
 }
 #habilidades {
-    background-color: #D6BCAB;
+    background-color: #a38775;
 }
 #sobremi {
-    background-color: #b4ce4c;
+    background-color: #D0BD85;
 }
 #proyectos {
-    background-color: #62aeb1;
+    background-color: #819D96;
 }
 .pformacion {
-    background-color: #e96163;
+    background-color: #C87968;
 display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 60px;
+
+}
+.pformacion img {
+    
+width: 80%;
 
 }
 .parrafos {
@@ -192,4 +205,44 @@ display: flex;
     text-align: justify;
     padding: 10px;
     margin: 50px;
+    line-height: 1.5em;
+    
+}
+
+.volver-inicio {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #C87968;
+    color: #F3F6F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    z-index: 100;
+}
+
+.volver-inicio:hover {
+    background-color: #a85d50;
+    transform: translateY(-3px);
+}
+
+.volver-inicio:focus-visible {
+    outline: 3px solid #D0BD85;
+    outline-offset: 3px;
+}
+
+.volver-inicio svg {
+    width: 28px;
+    height: 28px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
