@@ -55,7 +55,10 @@ body {
 .foto {
     width: 500px;
     height: 500px;
-    background-image: url("../foto.jpeg");
+    background-image: url("../image1.png");
+     background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
     top: 200px;
     left: 220px;
     z-index: 1;
@@ -246,3 +249,7 @@ width: 80%;
     stroke-linecap: round;
     stroke-linejoin: round;
 }
+ .experiencia  {
+    
+ }  
+
